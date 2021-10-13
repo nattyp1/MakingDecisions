@@ -7,7 +7,7 @@
 */
 
 //CODE HERE
-
+console.log("natalie")
 // For problems 2-3 use the following lines of code:
 var amysAge = 29
 var brittanisAge = 34
