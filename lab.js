@@ -7,7 +7,14 @@
 */
 
 //CODE HERE
-console.log("natalie")
+let lovesCode = true;
+
+if (lovesCode === true){
+  console.log("I love to code!")
+}
+else {
+  console.log("Coding has its challenges.")
+}  
 // For problems 2-3 use the following lines of code:
 var amysAge = 29
 var brittanisAge = 34
@@ -21,7 +28,16 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-
+if (amysAge > brittanisAge){
+  console.log("Amy is older")
+}
+else if (brittanisAge > amysAge){
+  console.log("Brittani is older")
+}
+else  
+{
+  console.log("Amy and Brittany are same age")
+}
 
 ////////// PROBLEM 3 //////////
 
@@ -30,7 +46,10 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-
+if (amysBirthYear===brittanisBirthYear){
+  console.log("Amy & Brittani were born in the same year")
+}else
+  console.log("Amy & Brittani were not born in the same year")
 
 ////////// PROBLEM 4 //////////
 
@@ -44,7 +63,6 @@ let rain = true
 
 //CODE HERE
 
-
 ////////// PROBLEM 5 //////////
 
 /*
@@ -53,7 +71,9 @@ let rain = true
 
 //CODE HERE
 
-
+for(i=1;i<=10;i++) {
+  console.log("hello");
+}
 ////////// PROBLEM 6 //////////
 
 /*
@@ -61,8 +81,8 @@ let rain = true
 */
 
 //CODE HERE
-
-
+for(let i=1; i < 11; i++)
+  console.log(i)
 ////////// PROBLEM 7 //////////
 
 /*
@@ -71,17 +91,24 @@ let rain = true
 
 //CODE HERE
 
+for(let i = 10; i > 0; i--){
+  console.log(i)
+}
+  
+////////// PROBLEM 8 //////////
 let score = 0
 let passingScore = 7
-
-////////// PROBLEM 8 //////////
-
 /*
   Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
 */
 
 //CODE HERE
 
+
+while (score > passingScore){
+  score += ("Your score is not high enough") 
+i++;
+}
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
@@ -92,12 +119,25 @@ let passingScore = 7
 */
 
 //CODE HERE
+let changeMyMind = true 
+
+if (changeMyMind === true) {
+console.log(false) 
+}
+else (changeMyMind === false) 
+  console.log(true)  
+
+
 
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
 //CODE HERE
 
+let changeMyMind = true 
+
+if (changeMyMind === true) {
+console.log("changeMyMind = false") 
 
 
 ////////// ADVANCED PROBLEMS //////////
